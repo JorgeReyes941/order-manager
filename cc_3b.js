@@ -34,7 +34,7 @@ inventory.forEach(item => {
   console.log(`${item.sku} | ${item.name} | ${item.price} | ${item.stock} in stock`);
 });
 
-// this next line should add a new product to the inventory 
+// this next line should add a new product to the inventory
 inventory.push({
     sku: "SKU_005",
     name: "Jacket",
@@ -54,7 +54,7 @@ inventory.forEach(item => {
   console.log(`${item.sku} | ${item.name} | ${item.price} | ${item.stock}`);
 });
 
-// step 4 create and process order 
+// step 4 create and process orders
 
 let orders = [
   {

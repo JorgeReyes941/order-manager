@@ -43,7 +43,7 @@ inventory.push({
 
 });
 
-// this line should remove the last product because of the .pop
+// this line should remove the last product because of the .pop()
 let removedItem = inventory.pop();
 console.log("Removed product: " + removedItem.name);
 
